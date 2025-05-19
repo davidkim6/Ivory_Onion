@@ -1,4 +1,5 @@
 import tkinter as tk
+from tkinter import filedialog
 
 class GeoToolboxApp:
     
@@ -11,4 +12,15 @@ class GeoToolboxApp:
         
     def init_ui(self):
         label = tk.Label(self.root, text="Weclome to GeoToolbox!", font=('Arial', 16))
-        label.pack(pady=20)
+        label.grid(row=0, column=0)
+        
+        entry = tk.Entry(self.root, width=50)
+        entry.grid(row=1, column=0)
+        
+        browse_btn = tk.Button(self.root, text="Browse", command=lambda: self.openfile(entry))
+        browse_btn.grid(row=1, column=1)
+            
+    def openfile(self, entryBox):
+        filename = filedialog.askopenfilename()
+        entryBox.delete(0, tk.END)
+        entryBox.insert(tk.END, filename)
