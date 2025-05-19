@@ -1,4 +1,4 @@
-# Attribute Extractor
+# Ivory_Onion
 
 Simple GUI tool built with Python and tkinter for vector file attribute extraction.
 
