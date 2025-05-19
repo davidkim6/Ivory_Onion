@@ -18,8 +18,8 @@ This app requires:
 
 ## Getting Started
 
-````bash
-git clone https://github.com/davidkim6/attribute_extrator.git
+```bash
+git clone https://github.com/davidkim6/attribute_extractor.git
 cd attribute_extractor
-pip install -r requriements.txt
+pip install -r requirements.txt
 python main.py
