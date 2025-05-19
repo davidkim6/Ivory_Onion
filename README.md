@@ -19,7 +19,7 @@ This app requires:
 ## Getting Started
 
 ```bash
-git clone https://github.com/davidkim6/attribute_extractor.git
+git clone https://github.com/davidkim6/Ivory_Onion
 cd attribute_extractor
 pip install -r requirements.txt
 python main.py
