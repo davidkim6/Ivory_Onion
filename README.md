@@ -20,6 +20,6 @@ This app requires:
 
 ```bash
 git clone https://github.com/davidkim6/Ivory_Onion
-cd attribute_extractor
+cd Ivory_Onion
 pip install -r requirements.txt
 python main.py
