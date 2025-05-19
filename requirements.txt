@@ -1,0 +1,4 @@
+# FME Python API (not installable via pip)
+# Requires FME Desktop to be installed on system
+geopandas
+tk
